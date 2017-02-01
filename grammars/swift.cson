@@ -36,7 +36,7 @@
       |(double|float)[234]|(double|float)[234]x[234]
       |Any
       |AnyObject
-	  |AnyClass
+      |AnyClass
       |Error
       |Equatable
       |Hashable
