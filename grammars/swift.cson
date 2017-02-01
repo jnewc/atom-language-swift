@@ -19,7 +19,7 @@
   }
   {
     'name': 'storage.type.annotation.swift'
-    'match': '\\s+(@autoclosure|@noescape|@escaping)\\s+'
+    'match': '\\s+(@autoclosure|@noescape|@escaping|throws)\\s+'
   }
   {
     'name': 'storage.modifier.swift'
