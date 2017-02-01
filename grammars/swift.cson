@@ -11,11 +11,15 @@
   }
   {
     'name': 'keyword.declaration.swift'
-    'match': '\\b(deinit|import|init|subscript)\\b'
+    'match': '\\b(deinit|import|init|subscript|func)\\b'
   }
   {
     'name': 'storage.type.swift'
     'match': '\\b(precedencegroup|class|struct|enum|extension|protocol|let|var|typealias)\\b'
+  }
+  {
+    'name': 'storage.type.annotation.swift'
+    'match': '\\s+(@autoclosure|@noescape|@escaping)\\s+'
   }
   {
     'name': 'storage.modifier.swift'
