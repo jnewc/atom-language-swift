@@ -67,6 +67,7 @@
       |(In|Out)putStream
       |FileManager
       |Array
+      |Dictionary
       |Unsafe[a-zA-Z]*Pointer
       |Bundle
       |Jex)\\b'
