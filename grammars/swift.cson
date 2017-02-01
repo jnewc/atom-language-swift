@@ -23,7 +23,7 @@
   }
   {
     'name': 'storage.modifier.swift'
-    'match': '\\b(final|internal|private|fileprivate|public|open|static|required|convenience)\\b'
+    'match': '\\b(final|internal|private|fileprivate|public|open|static|required|convenience|lazy)\\b'
   }
   {
     'name': 'keyword.controls.swift'
