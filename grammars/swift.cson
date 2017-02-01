@@ -26,7 +26,7 @@
     'match': '\\b(final|internal|private|fileprivate|public|open|static|required|convenience)\\b'
   }
   {
-    'name': 'keyword.statement.swift'
+    'name': 'keyword.controls.swift'
     'match': '\\b(try|catch|repeat|break|case|continue|default|do|else|fallthrough|if|in|for|return|switch|where|while|guard|defer)\\b'
   }
   {
@@ -73,7 +73,7 @@
   }
   {
     'name': 'support.function.swift'
-    'match': '\\b(assert|assertionFailure|print)\\b'
+    'match': '\\b(assert|assertionFailure|print|fatalError|stride)\\b'
   }
   {
     'name': 'keyword.expressions-and-types.swift'
