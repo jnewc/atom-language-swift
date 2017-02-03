@@ -1,5 +1,5 @@
 {
-  "name": "language-swift-3+",
+  "name": "language-swift-3",
   "version": "0.1.0",
   "description": "Swift language support in Atom that's actually supported",
   "license": "MIT",
