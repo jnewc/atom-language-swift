@@ -7,11 +7,14 @@
 'patterns': [
   {
     'name': 'keyword.others.swift'
-    'match': '^\\s*(#if|#else|#endif|#elseif|@warn_unused_result|@discardableResult|@IBAction|@IBOutlet|@IBDesignable|@IBInspectable)\\b'
+    'match': '^\\s*(#if|#else|#endif|#elseif
+	  |@warn_unused_result|@discardableResult
+	  |@IBAction|@IBOutlet|@IBDesignable|@IBInspectable
+	  |@testable)\\b'
   }
   {
     'name': 'keyword.declaration.swift'
-    'match': '\\b(deinit|import|init|subscript|func)\\b'
+    'match': '\\b(deinit|import|init|subscript|func|throws)\\b'
   }
   {
     'name': 'storage.type.swift'
@@ -19,7 +22,7 @@
   }
   {
     'name': 'storage.type.annotation.swift'
-    'match': '\\s+(@autoclosure|@noescape|@escaping|throws)\\s+'
+    'match': '\\s+(@autoclosure|@noescape|@escaping)\\s+'
   }
   {
     'name': 'storage.modifier.swift'
