@@ -1,14 +1,14 @@
 {
-  "name": "language-swift",
-  "version": "0.5.0",
+  "name": "language-swift3",
+  "version": "0.1.0",
   "description": "Swift language support in Atom",
   "license": "MIT",
-  "homepage": "https://github.com/darinmorrison/atom-language-swift",
-  "repository": "https://github.com/darinmorrison/atom-language-swift",
+  "homepage": "https://github.com/jnewc/atom-language-swift",
+  "repository": "https://github.com/jnewc/atom-language-swift",
   "engines": {
     "atom": ">= 0.100.0"
   },
   "bugs": {
-    "url": "https://github.com/darinmorrison/atom-language-swift/issues"
+    "url": "https://github.com/jnewc/atom-language-swift/issues"
   }
 }
