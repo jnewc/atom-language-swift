@@ -1,6 +1,6 @@
 {
   "name": "language-swift-3",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Swift language support in Atom that's actually supported",
   "license": "MIT",
   "homepage": "https://github.com/jnewc/atom-language-swift",
