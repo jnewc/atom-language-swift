@@ -78,7 +78,9 @@
   }
   {
     'name': 'support.function.swift'
-    'match': '\\b(assert|assertionFailure|print|fatalError|stride)\\b'
+    'match': '(?x) \\b(assert|assertionFailure|print|fatalError|stride
+	  |XCTAssert|XCTFail|XCTAssertTrue|XCTAssertFalse|XCTAssertNil|XCTAssertNotNil
+	  |XCTAssertEqual|XCTAssertEqualWithAccuracy|XCTAssertNotEqual|XCTAssertNotEqualWithAccuracy)\\b'
   }
   {
     'name': 'keyword.expressions-and-types.swift'
