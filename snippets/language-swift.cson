@@ -40,6 +40,13 @@
       ${2:body}
     }
     '''
+  'Protocol':
+    'prefix': 'protocol'
+    'body': '''
+    protocol ${1:name} {
+      ${2:body}
+    }
+    '''
   'Structure':
     'prefix': 'struct'
     'body': '''
